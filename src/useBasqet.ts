@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { ConfigProps } from './types'
+
 declare const window: Window &
   typeof globalThis & {
     payWithBasqet: any
