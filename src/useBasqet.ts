@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useEffect, useState } from 'react'
 import { ConfigProps } from './types'
 
@@ -77,7 +78,7 @@ const useBasqet = (props: ConfigProps) => {
       const basqet =
         window.payWithBasqet &&
         window.payWithBasqet({ ...props, amount: +props.amount })
-        return basqet
+      return basqet
     }
   }
   return handlePayment
