@@ -6,7 +6,9 @@
 
 Basqet - Allow your customers from anywhere in the world pay you in Bitcoin, QDX, XRP and USDT.
 
-![Basqet pay SDK](https://github.com/oyeolamilekan/basqet-react/blob/master/001_screen_shot.png?raw=true)
+## Demo
+
+![Basqet pay SDK](Demo.png)
 
 ## Installation
 
