@@ -66,7 +66,7 @@ export default function App() {
 - [`onAbandoned`](#onAbandoned)
 - [`metadata`](#metadata)
 
-### <a name="key"></a> `key`
+### <a name="public_key"></a> `public_key`
 
 **string: Required**
 Your public key can be found on your [dashboard](https://dashboard.basqet.com/).
@@ -95,12 +95,12 @@ This is called when a transaction fails. It returns a response with error type
 
 Check the [Basqet Docs](https://docs.basqet.com/docs) for error object
 
-### <a name="onClose"></a> `onLoad`
+### <a name="onClose"></a> `onClose`
 
 **(response) => void: Optional**
-This is called when the SDK loads up.
+This is called when the SDK has been closed.
 
-### <a name="onClose"></a> `onClose`
+### <a name="onAbandoned"></a> `onAbandoned`
 
 **(response) => void: Optional**
 This is called when a user clicks on the close button.
