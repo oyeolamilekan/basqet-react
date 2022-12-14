@@ -1,4 +1,5 @@
 # basqet-react
+[![NPM version](https://img.shields.io/npm/v/basqet-react.svg)](https://npmjs.org/package/basqet-react)
 
 > Official React package for Basqet
 
